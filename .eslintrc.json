@@ -1,4 +1,9 @@
 {
+"plugins": ["prettier"],
+    "extends": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
     "env": {
         "commonjs": true,
         "es2021": true,
